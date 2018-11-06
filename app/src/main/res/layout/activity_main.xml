@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="User Registraiton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="50dp"></TextView>
+        <EditText
+            android:id="@+id/editTextEmailmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="15dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="152dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="284dp"
+            android:layout_height="44dp"
+            android:text="Register New User"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <Button
+            android:id="@+id/buttonGoToAddDrink"
+            android:layout_width="284dp"
+            android:layout_height="44dp"
+            android:text="Go to add drink"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+
+        <TextView
+            android:id="@+id/viewSignin"
+            android:layout_width="315dp"
+            android:layout_height="47dp"
+            android:text="Already Registered? Sign in here"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

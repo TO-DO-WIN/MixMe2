@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDrinkActvity">
+
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="User Registraiton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="50dp"></TextView>
+        <EditText
+            android:id="@+id/editDrinkName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Drink Name"
+            android:layout_margin="15dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="102dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+
+            android:id="@+id/editAlcohol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Acohol Type"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+             />
+
+        <Button
+            android:id="@+id/buttonAddDrink"
+            android:layout_width="284dp"
+            android:layout_height="44dp"
+            android:text="Add Drink"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/returnToMain"
+            android:layout_width="315dp"
+            android:layout_height="47dp"
+            android:text="Return to main"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
